@@ -4,6 +4,10 @@
     width: 16vh;
     min-width: 120px;
 }
+.dropdown-dev{
+    font-style: italic;
+    font-weight: 600;
+}
 #carouselExampleIndicators{
     top: 7vh;
     height: 50vh;
