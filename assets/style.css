@@ -29,6 +29,7 @@ height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: inherit;
 }
 .div-card-img{
 
@@ -36,9 +37,9 @@ height: 50vh;
     justify-content: center;
     align-items: center;
     height: inherit;
-    padding:  0 0 0 9px;
 }
 .card-img{
+    height: inherit;
     align-self: center;
     object-fit: cover;
     left: 2px;
