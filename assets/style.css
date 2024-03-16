@@ -1,14 +1,22 @@
 
 /* NAVBAR  */
 #navbar-logo{
-    width: 135px;
-    
+    width: 16vh;
+    min-width: 120px;
+}
+#carouselExampleIndicators{
+    top: 7vh;
+    height: 50vh;
 }
 .carousel-inner{
+    
     height: 50vh;
-    b
+
 }
 .carousel-inner img{
-    background-position: ;
-    
+height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
 }
