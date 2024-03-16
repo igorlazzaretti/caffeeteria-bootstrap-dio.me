@@ -22,5 +22,25 @@ height: 50vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
-
 }
+
+/* CARDS */
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-card-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding:  0 0 0 9px;
+}
+.card-img{
+    align-self: center;
+    object-fit: cover;
+    left: 2px;
+}
+
