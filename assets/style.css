@@ -52,3 +52,28 @@ height: 50vh;
     height: 35vh;
     object-fit: cover;
 }
+/* Map */
+.map-button-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+.map-button{
+    background-color: #198754;
+    color: rgb(34, 34, 34);
+    border-color: rgb(61, 61, 61);
+}
+.map-button:hover{
+    background-color: aliceblue;
+    color: #198754;
+    border-color: #198754 ;
+}
+.modal-dialog{
+    width: 67vw;
+    max-width: 80vw;
+}
+.modal iframe{
+    width: 100%;
+    height: 700px;
+}

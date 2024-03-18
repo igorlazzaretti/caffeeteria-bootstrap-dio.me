@@ -341,27 +341,71 @@
 
 
 <!-- Modal Localização -->
-<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<div class="map-button-flex">
+<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModalCenter">
+  Nossa Localização
+</button>
+</div>
 
-
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+        oi
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+<!-- Button trigger modal -->
+<div class="map-button-flex">
+<button type="button" class="btn btn-primary map-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Nossa Localização
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Nossa Localização</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Endereço: R. Joaquim Nabuco, 197 - Cidade BaixaPorto Alegre - RS, 90050-340 <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.8316048556653!2d-51.220497!3d-30.041688599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978559236da4d%3A0xec0eae18c88a9306!2sR.%20Joaquim%20Nabuco%2C%20197%20-%20Cidade%20Baixa%2C%20Porto%20Alegre%20-%20RS%2C%2090050-340!5e0!3m2!1spt-BR!2sbr!4v1710771020914!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Fim de Modal Localização -->
+
+
+
+
+
+
+
+
+
+
 
 
 
