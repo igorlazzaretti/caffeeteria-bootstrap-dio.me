@@ -45,3 +45,10 @@ height: 50vh;
     left: 2px;
 }
 
+
+/* CARDAPIO */
+
+#nav-tabContent .card img{
+    height: 35vh;
+    object-fit: cover;
+}
