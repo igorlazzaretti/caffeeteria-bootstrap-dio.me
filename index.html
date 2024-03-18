@@ -25,7 +25,7 @@
 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nós</a>
+          <a class="nav-link" href="#sobrenos">Sobre nós</a>
         </li>
 
         <li class="nav-item">
@@ -33,7 +33,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Local</a>
+            <a class="nav-link" href="#map-button-flex">Local</a>
           </li>
 
 
@@ -133,7 +133,7 @@
  <!-- Final do Quote  -->
 
  <!-- Cards Horrizontais em Colunas  -->
- <div class="container text-center mt-4">
+ <div class="container text-center mt-4" id="sobrenos">
   <div class="row justify-content-center " >
 
     <div class="col-lg-4  col-md-12 card-i">
@@ -339,40 +339,9 @@
 <!-- Final / End of PILL SECTION -->
 
 
-
-<!-- Modal Localização -->
-<div class="map-button-flex">
-<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModalCenter">
-  Nossa Localização
-</button>
-</div>
-
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        oi
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
 <!-- Button trigger modal -->
-<div class="map-button-flex">
-<button type="button" class="btn btn-primary map-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<div class="map-button-flex mt-4" id="map-button-flex" ">
+<button type="button" class="btn  btn-primary map-button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 22vw;"">
   Nossa Localização
 </button>
 </div>
@@ -386,7 +355,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Endereço: R. Joaquim Nabuco, 197 - Cidade BaixaPorto Alegre - RS, 90050-340 <hr>
+        Endereço: R. Joaquim Nabuco, 197 - Cidade Baixa <br>Porto Alegre - RS, 90050-340 <hr>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.8316048556653!2d-51.220497!3d-30.041688599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978559236da4d%3A0xec0eae18c88a9306!2sR.%20Joaquim%20Nabuco%2C%20197%20-%20Cidade%20Baixa%2C%20Porto%20Alegre%20-%20RS%2C%2090050-340!5e0!3m2!1spt-BR!2sbr!4v1710771020914!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="modal-footer">
@@ -397,16 +366,18 @@
 </div>
 <!-- Fim de Modal Localização -->
 
+<footer class="text-center bg-white p-4 mt-0">
+  <hr size="20px">
+  <p class="fw-bold">
+    Caffeeteria | Seu lugar mágico em Porto Alegre!
+  </p>
+  <p class="mb-0">Website inspirado na minha visita ao Caldeirão Furado Café/Pub </p>
+  <p> O criador deste site indica para todos os fãns da saga <a href="https://www.instagram.com/caldeiraofuradocafepub/">@caldeiraofuradocafepub</p></a>
+  <img src="./assets/img/logoHorizont2.png" alt="logotipo Caffeeteria" style="width: 50vw;">
 
+  
 
-
-
-
-
-
-
-
-
+</footer>
 
 
  <!-- Script Bootscrap - Deixarr no Final do Body  -->
