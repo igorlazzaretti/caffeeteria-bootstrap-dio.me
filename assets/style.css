@@ -12,6 +12,17 @@ div, nav, figure{
     font-style: italic;
     font-weight: 600;
 }
+.btn-success{
+    background-color: #ff0;
+    border-color: rgba(0, 0, 0, 0.505);
+}
+.btn-success:hover{
+    transform: scale(1.06);
+    background-color:#ff0;
+    border-color: rgba(0, 0, 0, 0.768);
+}
+
+/* == CAROUSEL ==  */
 #carouselExampleIndicators{
     top: 7vh;
     height: 50vh;
@@ -57,11 +68,13 @@ height: 50vh;
     object-fit: cover;
 }
 .nav-link-card{
-    color: #198754;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 0, 0.187);
+    border-color: #ff0;
 }
-.nav-link:hover{
-    color: aliceblue;
-    background-color: #198754;
+.nav-link-card:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ff0;
 }
 
 /* Map */
@@ -72,14 +85,15 @@ height: 50vh;
     margin: 8px;
 }
 .map-button{
-    background-color: #198754;
-    color: rgb(34, 34, 34);
+    background-color: rgba(255, 255, 0, 0.644);
+    color: rgba(34, 34, 34, 0.676);
     border-color: rgb(61, 61, 61);
-}
+    }
 .map-button:hover{
-    background-color: aliceblue;
-    color: #198754;
-    border-color: #198754 ;
+    transform: scale(1.05);
+    background-color: #ff0;
+    color: rgb(0, 0, 0);
+    border-color: #ff0 ;
 }
 .modal-dialog{
     width: 67vw;
