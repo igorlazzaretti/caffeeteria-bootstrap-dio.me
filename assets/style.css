@@ -1,3 +1,7 @@
+div, nav, figure{
+    scroll-behavior: smooth;
+    scroll-margin-top: 8rem;
+}
 
 /* NAVBAR  */
 #navbar-logo{
@@ -52,6 +56,14 @@ height: 50vh;
     height: 35vh;
     object-fit: cover;
 }
+.nav-link-card{
+    color: #198754;
+}
+.nav-link:hover{
+    color: aliceblue;
+    background-color: #198754;
+}
+
 /* Map */
 .map-button-flex{
     display: flex;
