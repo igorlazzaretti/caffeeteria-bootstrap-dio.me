@@ -41,4 +41,8 @@ Criação de um website front-end de uma cafeteria. Curso de CSS com a professor
 
 
 ##
+<div align="center">
+
 > "Acredite nos seus sonhos" <br> - Igor Dossin Lazzaretti
+
+</div>
