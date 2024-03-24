@@ -1,7 +1,7 @@
 <div align="center"><img width="800" src="./assets/img/logoFooter.png"></div>
 
 ## Caffeeteria usando Bootstrap
-<a target=_blank href="https://igorlazzaretti.github.io/caffeeteria-bootstrap-dio.me/">👨‍💻 Deploy do Projeto</a>
+<a target="_blank" href="https://igorlazzaretti.github.io/caffeeteria-bootstrap-dio.me/">👨‍💻 Deploy do Projeto</a>
 
 ## Imagens do projeto
 <div align="center">
