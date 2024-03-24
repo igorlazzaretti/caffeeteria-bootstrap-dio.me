@@ -1,8 +1,13 @@
+<img src="./assets/img/readme-assets/Capture.PNG">
+
 ## Caffeeteria usando Bootstrap
 👨‍💻 Deploy do Projeto
 
 ## Imagens do projeto
-
+<div align="center">
+<img width="400" src="./assets/img/readme-assets/Capture1.PNG">
+<img width="340" src="./assets/img/readme-assets/Capture2.PNG">
+</div>
 
 ## Sobre o Projeto
 Criação de um website front-end de uma cafeteria. Curso de CSS com a professora Michele Ambriosio. Introdução ao framework: Bootstrap.
