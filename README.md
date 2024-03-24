@@ -1,12 +1,16 @@
-# caffeeteria-bootstrap-dio.me
-Curso de CSS com a professora Michele Ambriosio. Introdução ao framework: Bootstrap
+## Caffeeteria usando Bootstrap
+👨‍💻 Deploy do Projeto
+
+## Imagens do projeto
 
 
+## Sobre o Projeto
+Criação de um website front-end de uma cafeteria. Curso de CSS com a professora Michele Ambriosio. Introdução ao framework: Bootstrap.
 
-
-
-
-
+## Tecnologias Utilizadas
+-   HTML 5
+-   CSS 3
+-   Bootstrap
 
 ## Sobre o Autor
 <p align="center">
