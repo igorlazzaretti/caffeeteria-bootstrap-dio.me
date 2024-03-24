@@ -1,12 +1,11 @@
-<img src="./assets/img/readme-assets/Capture.PNG">
+<div align="center"><img width="800" src="./assets/img/logoFooter.png"></div>
 
 ## Caffeeteria usando Bootstrap
-👨‍💻 Deploy do Projeto
+<a target=_blank href="https://igorlazzaretti.github.io/caffeeteria-bootstrap-dio.me/">👨‍💻 Deploy do Projeto</a>
 
 ## Imagens do projeto
 <div align="center">
 <img width="400" src="./assets/img/readme-assets/Capture1.PNG">
-<img width="340" height="2900" src="./assets/img/readme-assets/Capture2.PNG">
 </div>
 
 ## Sobre o Projeto
