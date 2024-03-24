@@ -1,4 +1,4 @@
-<div align="center"><img width="800" src="./assets/img/logoFooter.png"></div>
+<div align="center"><img width="600" src="./assets/img/logoFooter.png"></div>
 
 ## Caffeeteria usando Bootstrap
 <a target="_blank" href="https://igorlazzaretti.github.io/caffeeteria-bootstrap-dio.me/">👨‍💻 Deploy do Projeto</a>
@@ -10,6 +10,12 @@
 
 ## Sobre o Projeto
 Criação de um website front-end de uma cafeteria. Curso de CSS com a professora Michele Ambriosio. Introdução ao framework: Bootstrap.
+
+<div align="center">
+<img src="https://avatars.githubusercontent.com/u/55519539?v=4" width="140"><br><a href="https://github.com/micheleambrosio" target="_blank">Michele Ambrosio</a>
+
+</div>
+
 
 ## Tecnologias Utilizadas
 -   HTML 5
