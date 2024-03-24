@@ -6,7 +6,7 @@
 ## Imagens do projeto
 <div align="center">
 <img width="400" src="./assets/img/readme-assets/Capture1.PNG">
-<img width="340" src="./assets/img/readme-assets/Capture2.PNG">
+<img width="340" height="2900" src="./assets/img/readme-assets/Capture2.PNG">
 </div>
 
 ## Sobre o Projeto
